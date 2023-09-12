@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+    /* display: flex; */
+  
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height:10vh;
+    font-size: larger;
+    background-color: burlywood;
+    justify-content: center;
+    position:relative;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+}
+aside {
+    display: flex;
+   
+    flex-direction: column;
+    height:90vh;
+    width:20vw;
+    background-color:rgb(194, 161, 161);
+
+}
+aside div{
+    display: flex;
+    height:48vh;
+    justify-content: center;
+    color: white;
+    border:1px solid black;
+   text-decoration: none;
+
+}
+aside div a:link{
+    cursor:pointer;
+        color: white; /* Set the color for unvisited links */
+        text-decoration: none; /* Remove the default underline */
+      
+}
+
+aside div a:visited{
+    color: white;
+    text-decoration: none;
+}
+.margin{
+    margin-top:10px;
+    cursor: pointer;
+}
+svg{
+    fill: white;
+    padding-right: 4px;
+    /* height:40px;
+    width:40px; */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 80vh;
+    overflow:wrap;
+
+    
+}
+.product{
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   background-color: aliceblue;
+
+
+align-content: center;
+    height:45vh;
+    width: 30vh;
+    border:2px solid black;
+
+    box-sizing: border-box;
+} 
+.img-container{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+  
+    /* margin-left: 12px; */
+}
+.img-container img{
+    height: 215px;
+    width: 178px;
+}
+
+
+h2{
+   display: inline;
+width: 100vw;
+    /*justify-content: center; */
+
+}
+.product-info {
+    display: flex;
+    
+    text-align: center;
+    justify-content: space-between;
+
+}
+.product .para p{
+    justify-content: space-evenly;
+    display: flex;
+    margin:-4px -4px;
+}
+/*addProduct*/
+.myform{
+    DISPLAY: flex;
+    FLEX-DIRECTION: column;
+}
+.myform {
+    MARGIN-LEFT: 21PX;
+    MARGIN-TOP: 15PX;
+    height: 90vh;
+    width: 90vh;
+    color: aquamarine;
+}
