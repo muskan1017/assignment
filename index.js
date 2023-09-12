@@ -8,7 +8,7 @@ console.log(showProduct);
 console.log(container);
 console.log(productData);
 addProduct.addEventListener("click",(ev)=>{
-    window.open("addproduct.html","popupWindow","width=50px;height=400px")
+    window.open("addProduct.html","popupWindow","width=50px;height=400px")
 })
 showProduct.addEventListener("click",(ev)=>{
     showItem(productData);
